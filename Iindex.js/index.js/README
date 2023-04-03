@@ -1,0 +1,30 @@
+Author = Misra Abdi 
+Licence = MIT
+
+QUESTION 1:
+
+This code takes input from the user for "marks" and then uses a grading criteria to assign a grade based on the entered marks. It has the following steps:
+
+    Takes input for marks using the prompt() function
+    Assigns grades using the grading criteria defined in the if/else if statements
+    Prints the grade to the console using console.log()
+    Prints the marks entered by the user using console.log()
+
+QUESTION 2:
+
+This code takes input from the user for "speed" and then checks if it is within the speed limit or not. It also calculates the number of demerit points and checks if they exceed a certain limit to suspend the license. It has the following steps:
+
+    Takes input for speed using the prompt() function
+    Assigns the speed limit and the number of km equivalent to a demerit point using constants
+    Calculates the number of demerit points based on the speed entered by the user
+    Checks if the demerit points exceed a certain limit and prints the appropriate message using console.log()
+
+QUESTION 3:
+
+This code takes input from the user for "basicSalary" and "benefits" and calculates the gross salary, tax deduction, NHIF deduction, NSSF deduction, and net salary. It has the following steps:
+
+    Takes input for basicSalary and benefits using the prompt() function
+    Calculates the gross salary by adding basicSalary and benefits
+    Calculates the tax deduction, NHIF deduction, and NSSF deduction using the rates defined by constants and multiplying them by the gross salary
+    Calculates the net salary by subtracting the tax deduction, NHIF deduction, and NSSF deduction from the gross salary
+    Prints the gross salary, tax deduction, NHIF deduction, NSSF deduction, and net salary using console.log()
